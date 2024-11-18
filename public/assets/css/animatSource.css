@@ -1,0 +1,18 @@
+/* Styles CSS */
+.nav-link.current-source {
+    /* Ajouter des styles de police */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; /* Couleur du texte */
+  
+    /* Ajouter des styles pour l'animation */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Styles CSS pour l'animation d'apparition */
+  .nav-link.current-source.appear {
+    opacity: 1;
+  }
+  
